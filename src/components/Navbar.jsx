@@ -283,15 +283,15 @@ const Navbar = ({ setIsDropdownOpen }) => {
               <div className="px-5 py-3 bg-white">
                 <div className="grid grid-cols-3 gap-3">
                   <div className="text-center p-3 bg-gray-50 rounded-xl">
-                    <div className="font-bold text-lg text-gray-900">3+</div>
+                    <div className="font-bold text-lg text-gray-900">3</div>
                     <div className="text-xs text-gray-600">Years</div>
                   </div>
                   <div className="text-center p-3 bg-gray-50 rounded-xl">
-                    <div className="font-bold text-lg text-gray-900">15+</div>
+                    <div className="font-bold text-lg text-gray-900">5</div>
                     <div className="text-xs text-gray-600">Projects</div>
                   </div>
                   <div className="text-center p-3 bg-gray-50 rounded-xl">
-                    <div className="font-bold text-lg text-gray-900">50+</div>
+                    <div className="font-bold text-lg text-gray-900">10+</div>
                     <div className="text-xs text-gray-600">Skills</div>
                   </div>
                 </div>
