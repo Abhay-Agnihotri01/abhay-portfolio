@@ -479,8 +479,7 @@ body {
     }
   }
 
-  #resume {
-    /* @apply !w-[800px] !h-[70vh] min-h-[500px] flex flex-col absolute top-20 left-1/2 -ml-[400px] bg-white shadow-2xl drop-shadow-2xl rounded-xl overflow-hidden; */
+  /* #resume {
     @apply w-[800px] h-[600px] flex flex-col absolute top-20 left-1/2 -ml-[400px] bg-white shadow-2xl drop-shadow-2xl rounded-xl overflow-hidden;
 
     .window-header {
@@ -488,7 +487,7 @@ body {
         @apply font-bold text-sm text-center flex-1;
       }
     }
-  }
+  } */
 
   #finder {
     @apply absolute w-[800px] h-[500px] left-40 top-20 shadow-2xl drop-shadow-2xl overflow-hidden rounded-xl;

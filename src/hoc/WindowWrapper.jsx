@@ -23,11 +23,11 @@ const WindowWrapper = (Component, windowKey) => {
           const y = dockRect.top + dockRect.height / 2 - window.innerHeight / 2;
 
           gsap.fromTo(el,
-            { x: x, y: y, scale: 0, opacity: 0, rotation: -15 },
-            { x: 0, y: 0, scale: 1, opacity: 1, rotation: 0, duration: 0.5, ease: "back.out(1.2)" }
+            { x: x, y: y, scale: 0, opacity: 0, rotation: -15, xPercent: -50, yPercent: -50 },
+            { x: 0, y: 0, scale: 1, opacity: 1, rotation: 0, duration: 0.5, ease: "back.out(1.2)", xPercent: -50, yPercent: -50 }
           );
         } else {
-          gsap.fromTo(el, { scale: 0.8, opacity: 0, y: 40, rotation: -15 }, { scale: 1, opacity: 1, y: 0, rotation: 0, duration: 0.5, ease: "power3.out" })
+          gsap.fromTo(el, { scale: 0.8, opacity: 0, y: 40, rotation: -15, xPercent: -50, yPercent: -50 }, { scale: 1, opacity: 1, y: 0, rotation: 0, duration: 0.5, ease: "power3.out", xPercent: -50, yPercent: -50 })
         }
       } else {
         // Closing animation
